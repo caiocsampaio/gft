@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30711.63
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GFT", "GFT\GFT.csproj", "{93CBC611-E436-49D1-8D88-15D975121099}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GFT", "GFT\GFT.csproj", "{93CBC611-E436-49D1-8D88-15D975121099}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GFT.Facades", "Facades\GFT.Facades.csproj", "{134340B1-925B-4DAA-BA9C-973752446997}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GFT.Models", "GFT.Models\GFT.Models.csproj", "{094A6E00-CF42-4742-9168-356B2A28705E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GFT.Models", "GFT.Models\GFT.Models.csproj", "{094A6E00-CF42-4742-9168-356B2A28705E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GFT.Repository", "GFT.Repository\GFT.Repository.csproj", "{ACB8480A-E427-496B-AE4F-3DB7EECF0C2F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,14 +19,14 @@ Global
 		{93CBC611-E436-49D1-8D88-15D975121099}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{93CBC611-E436-49D1-8D88-15D975121099}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{93CBC611-E436-49D1-8D88-15D975121099}.Release|Any CPU.Build.0 = Release|Any CPU
-		{134340B1-925B-4DAA-BA9C-973752446997}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{134340B1-925B-4DAA-BA9C-973752446997}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{134340B1-925B-4DAA-BA9C-973752446997}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{134340B1-925B-4DAA-BA9C-973752446997}.Release|Any CPU.Build.0 = Release|Any CPU
 		{094A6E00-CF42-4742-9168-356B2A28705E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{094A6E00-CF42-4742-9168-356B2A28705E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{094A6E00-CF42-4742-9168-356B2A28705E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{094A6E00-CF42-4742-9168-356B2A28705E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACB8480A-E427-496B-AE4F-3DB7EECF0C2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACB8480A-E427-496B-AE4F-3DB7EECF0C2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACB8480A-E427-496B-AE4F-3DB7EECF0C2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACB8480A-E427-496B-AE4F-3DB7EECF0C2F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

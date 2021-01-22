@@ -56,10 +56,7 @@ namespace GFT
                 {
                     connection.Open();
                     var command = new SqlCommand();
-                    var transaction = connection.BeginTransaction();
                     command.Connection = connection;
-                    command.Transaction = transaction;
-
                     command.CommandText = @"
                         IF DB_ID('GFTTest') IS NULL
                         BEGIN
@@ -67,6 +64,8 @@ namespace GFT
                         END";
                     command.ExecuteNonQuery();
 
+                    var transaction = connection.BeginTransaction();
+                    command.Transaction = transaction;
                     command.CommandText = @"
                         USE [GFTTest];
 

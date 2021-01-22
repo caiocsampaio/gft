@@ -8,13 +8,13 @@ namespace GFT.Models
     public class Pedido
     {
         [JsonProperty("pedidoId")]
-        public Guid PedidoId { get; set; }
+        public int PedidoId { get; set; }
 
         [JsonProperty("clienteId")]
-        public Guid ClienteId { get; set; }
+        public int ClienteId { get; set; }
 
         [JsonProperty("produtoId")]
-        public Guid ProdutoId { get; set; }
+        public int ProdutoId { get; set; }
 
         [JsonProperty("ativo")]
         public bool Ativo { get; set; }

@@ -8,7 +8,7 @@ namespace GFT.Models
     public class Produto
     {
         [JsonProperty("produtoId")]
-        public Guid ProdutoId { get; set; }
+        public int ProdutoId { get; set; }
 
         [JsonProperty("descricao")]
         public string Descricao { get; set; }

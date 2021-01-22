@@ -4,10 +4,11 @@ using System.Linq;
 using System.Text;
 using GFT.Models;
 using GFT.Repository.Context;
+using GFT.Repository.Interfaces;
 
 namespace GFT.Repository
 {
-    public class PedidoRepository
+    public class PedidoRepository : IPedidoRepository
     {
         private readonly GFTContext _context;
 

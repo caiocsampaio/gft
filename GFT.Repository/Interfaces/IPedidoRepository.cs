@@ -5,7 +5,7 @@ using GFT.Models;
 
 namespace GFT.Repository.Interfaces
 {
-    public interface IPedidoRepository : IBaseRepository<Produto>
+    public interface IPedidoRepository : IBaseRepository<Pedido>
     {
     }
 }

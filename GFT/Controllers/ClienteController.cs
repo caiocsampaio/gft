@@ -17,7 +17,7 @@ namespace GFT.Controllers
         [HttpGet]
         public IEnumerable<Cliente> Get()
         {
-            return new Cliente[] { "value1", "value2" };
+            return new Cliente[] { };
         }
 
         // GET api/<ClienteController>/5
